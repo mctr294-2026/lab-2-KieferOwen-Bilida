@@ -8,7 +8,8 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Add executables
-add_executable(roots_demo src/roots/main.cpp)
+add_executable(roots_demo src/roots/main.cpp
+		src/roots/roots.cpp)
 
 # Library providing root-finding algorithms.
 add_library(roots src/roots/roots.cpp)
